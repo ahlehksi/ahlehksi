@@ -3,21 +3,58 @@
 <head>
   <meta charset="UTF-8">
   <title>Alex P Castro</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px;
+      background-color: #f9f9f9;
+    }
+    .titulo {
+      margin-bottom: 30px;
+    }
+    .texto-box {
+      border: 3px solid black;
+      padding: 20px;
+      margin: 30px auto;
+      width: 70%;
+      font-size: 20px;
+    }
+    .imagens {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+    .imagens img {
+      width: 150px;
+      height: 150px;
+      border: 3px solid black;
+      object-fit: cover;
+    }
+  </style>
 </head>
 <body>
-  <h1 style="text-align: center;">Alex P Castro</h1>
-  <h2 style="text-align: center;">Novo site interativo</h2>
+  <div class="titulo">
+    <h1>Alex P Castro</h1>
+    <h2>Novo site interativo</h2>
+    <p>Site criado em 31/07/2025</p>
+    <p><a href="https://giphy.com/channel/alexpcastro" target="_blank">Veja meus GIFs no Giphy</a></p>
+  </div>
 
-  <p style="text-align: center;">Site criado em 31/07/2025</p>
+  <!-- Área de texto -->
+  <div class="texto-box">
+    Oi, meu nome é Alex, sou editor de imagens e criador de gifs animados, seja bem-vindo ao meu site. Aqui estão algumas das minhas criações.
+  </div>
 
-  <p style="text-align: center;">
-    <a href="https://giphy.com/channel/alexpcastro" target="_blank">
-      Veja meus GIFs no Giphy
-    </a>
-  </p>
-
-  <!-- Se quiser adicionar imagens, use esse exemplo:
-  <img src="minha-imagem.png" alt="Descrição" width="300">
-  -->
+  <!-- Imagens A, B, C, D, E -->
+  <div class="imagens">
+    <img src="A.png" alt="Imagem A">
+    <img src="B.gif" alt="Imagem B">
+    <img src="C.gif" alt="Imagem C">
+    <img src="D.gif" alt="Imagem D">
+    <img src="E.png" alt="Imagem E">
+  </div>
 </body>
 </html>
